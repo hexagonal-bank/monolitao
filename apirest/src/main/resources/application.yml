@@ -1,0 +1,10 @@
+spring:
+  main:
+    banner-mode: "off"
+  application:
+    name: monolitao-app
+
+server:
+  port: 5555
+  servlet:
+    context-path: /monolitao/v1
