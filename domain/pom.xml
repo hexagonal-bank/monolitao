@@ -26,11 +26,21 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- TODO: Add logback dependencies -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.1.7</version>
+        </dependency>
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.3.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
             <version>5.3.1</version>
             <scope>test</scope>
         </dependency>
@@ -41,5 +51,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>
